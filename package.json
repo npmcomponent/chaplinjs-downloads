@@ -1,22 +1,8 @@
 {
-  "name": "chaplin",
+  "name": "chaplinjs-downloads",
   "version": "1.0.0",
-  "description": "Chaplin.js",
   "main": "chaplin.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/chaplinjs/downloads.git"
-  },
-  "author": "Chaplin team",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/chaplinjs/downloads/issues"
-  },
   "dependencies": {
-    "backbone": "~1.1.2",
-    "underscore": "~1.6.0"
+    "components-backbone": "git://github.com/npmcomponent/components-backbone.git"
   }
 }

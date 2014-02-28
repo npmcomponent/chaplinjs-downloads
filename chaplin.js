@@ -3066,7 +3066,7 @@ if (typeof define === 'function' && define.amd) {
     return loader('chaplin');
   });
 } else if (typeof module === 'object' && module && module.exports) {
-  regDeps(require('backbone'), require('underscore'));
+  regDeps(require('components-backbone'), require('underscore'));
   module.exports = loader('chaplin');
 } else if (typeof require === 'function') {
   regDeps(window.Backbone, window._ || window.Backbone.utils);
